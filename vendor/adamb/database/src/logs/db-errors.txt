@@ -1,0 +1,74 @@
+08/05/2018 11:09:46 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:10:17 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:12:35 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:13:21 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:13:25 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:13:58 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:24:50 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:25:34 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:26:04 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:27:19 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:28:23 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:28:46 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:28:58 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:29:09 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:29:46 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:30:12 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:30:18 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:30:25 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:30:27 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:30:44 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:31:32 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:31:39 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:31:46 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:31:47 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:43:50 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:44:06 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:44:49 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:45:15 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 11:45:26 ERROR: SQLSTATE[HY000] [1049] Unknown database 'user' on 
+08/05/2018 17:11:01 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`casas`, CONSTRAINT `ibfk1` FOREIGN KEY (`casa_owner`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `casas` (`casa_name`, `casa_desc`, `casa_img`, `casa_ubication`, `casa_active`) VALUES (?, ?, ?, ?, ?);
+08/05/2018 17:12:49 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`casas`, CONSTRAINT `ibfk1` FOREIGN KEY (`casa_owner`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `casas` (`casa_name`, `casa_desc`, `casa_img`, `casa_ubication`, `casa_active`) VALUES (?, ?, ?, ?, ?);
+08/05/2018 17:13:31 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`casas`, CONSTRAINT `ibfk1` FOREIGN KEY (`casa_owner`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `casas` (`casa_name`, `casa_desc`, `casa_img`, `casa_ubication`, `casa_active`) VALUES (?, ?, ?, ?, ?);
+08/05/2018 18:28:03 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,4)
+08/05/2018 18:28:35 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,1)
+09/05/2018 08:01:52 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,4)
+09/05/2018 08:02:30 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,4)
+09/05/2018 08:02:36 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,5)
+09/05/2018 08:02:57 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,5)
+09/05/2018 08:03:19 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,5)
+09/05/2018 08:03:41 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,5)
+09/05/2018 08:04:26 ERROR: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE sweethome.del_votes does not exist on CALL del_votes(3,4); CALL add_votes(3,4,5)
+09/05/2018 08:15:55 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'voto' in 'field list' on SELECT `voto` FROM `votos` WHERE `user_id` = ? AND `casa_id` = ? LIMIT 1;
+09/05/2018 08:15:57 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'voto' in 'field list' on SELECT `voto` FROM `votos` WHERE `user_id` = ? AND `casa_id` = ? LIMIT 1;
+09/05/2018 08:16:20 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'voto' in 'field list' on SELECT `voto` FROM `votos` WHERE `user_id` = ? AND `casa_id` = ? LIMIT 1;
+09/05/2018 08:44:40 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:45:08 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:45:25 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:45:26 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:45:26 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:45:26 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:45:37 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:46:07 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:48:09 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:48:10 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:48:10 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 08:49:56 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '1' in 'order clause' on SELECT * FROM `casas` ORDER BY `1` DESC LIMIT 1;
+09/05/2018 11:10:24 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:10:49 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:11:23 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:11:33 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:12:42 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:13:05 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:13:22 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:14:19 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:15:11 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:17:53 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:18:14 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`, `pregunta_opcional_nombre`, `pregunta_opcional_email`) VALUES (?, ?, ?, ?, ?);
+09/05/2018 11:19:17 ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sweethome`.`preguntas`, CONSTRAINT `fk_casa` FOREIGN KEY (`pregunta_casa`) REFERENCES `casas` (`casa_id`) ON DELETE CASCADE ON UPDATE CASCADE) on INSERT INTO `preguntas` (`pregunta_uid`, `pregunta_casa`, `pregunta_texto`) VALUES (?, ?, ?);
+09/05/2018 11:32:48 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'casa_id' in 'where clause' on SELECT * FROM `preguntas` WHERE `casa_id` = ?;
+09/05/2018 11:32:57 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'casa_id' in 'where clause' on SELECT * FROM `preguntas` WHERE `casa_id` = ?;
+09/05/2018 11:33:34 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'casa_id' in 'where clause' on SELECT * FROM `preguntas` WHERE `casa_id` = ?;
+09/05/2018 11:33:44 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'casa_id' in 'where clause' on SELECT * FROM `preguntas` WHERE `casa_id` = ?;
+09/05/2018 11:33:54 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'casa_id' in 'where clause' on SELECT * FROM `preguntas` WHERE `casa_id` = ?;
+09/05/2018 11:34:13 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'casa_id' in 'where clause' on SELECT * FROM `preguntas` WHERE `casa_id` = ?;
